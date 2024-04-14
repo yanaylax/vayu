@@ -1,0 +1,32 @@
+{
+    "modal": {
+      "openButton": "Open Modal",
+      "backButton": "Back",
+      "nextButton": "Next",
+      "submitButton": "Submit",
+      "closeButton": "Close",
+      "form": {
+        "nameStep": {
+          "firstNameLabel": "First Name:",
+          "firstNameRequired": "First Name is required",
+          "lastNameLabel": "Last Name:",
+          "lastNameRequired": "Last Name is required",
+          "nameShort": "Name must be at least 2 characters",
+          "nameLong": "Name must be no longer than 20 characters",
+          "nameInvalid": "Name must not contain numbers or special characters"
+        },
+        "ageStep": {
+          "ageLabel": "Age:",
+          "ageRequired": "Age is required",
+          "ageMax": "Age must be less than or equal to 140"
+        },
+        "reviewStep": {
+          "header": "Review Your Details",
+          "firstName": "First Name: ",
+          "lastName": "Last Name: ",
+          "age": "Age: "
+        }
+      }
+    }
+  }
+  

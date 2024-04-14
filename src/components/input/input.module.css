@@ -1,0 +1,29 @@
+.inputGroup {
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.inputLabel {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.inputField {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.inputField[aria-invalid="true"] {
+  border-color: red;
+}
+
+.errorMsg {
+  color: red;
+  font-size: 14px;
+  position: absolute;
+  top: 110%;
+  left: 0;
+}
